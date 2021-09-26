@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project is for selecting the Artist, i used React for this [Create React App](https://github.com/facebook/create-react-app).
+This project is for selecting the Artist for Concert, i used React for this, You can learn More About From This[React](https://reactjs.org/).
 
 ## Available Scripts
 

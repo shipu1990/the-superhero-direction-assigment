@@ -18,3 +18,18 @@
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
+.no-mb {
+  margin-bottom: 0;
+}
+ul.artist-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul.artist-list li {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+}

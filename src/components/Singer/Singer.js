@@ -5,8 +5,8 @@ import './Singer.css'
 
 const Singer = () => {
     const [artists, setArtists] = useState ([]);
-    const[cart, setCart] = useState([]);
-    console.log(cart);
+    const[carts, setCarts] = useState([]);
+    console.log(carts);
     useEffect(()=>{
         fetch('./singers.JSON')
         .then(res=>res.json())
@@ -14,8 +14,8 @@ const Singer = () => {
     },[])
 
     const handleArtist = (artist) =>{
-        const newCart = [...cart, artist];
-        setCart(newCart);
+        const newCart = [...carts, artist];
+        setCarts(newCart);
     }
     return (
         <div>
@@ -24,7 +24,7 @@ const Singer = () => {
                 <h3 className="budget-title">Minimum Budget will be <span>200000</span> for your Concert</h3>
             </div>
             {/* All Artist info Section */}
-            
+
             <div className="singer-container">
                 <div className="artist-container">
                     {
@@ -38,7 +38,7 @@ const Singer = () => {
 
                {/* Concert Cart  */}
                 <div className="cart-container">
-                    <Cart cart={cart}></Cart>
+                    <Cart carts={carts}></Cart>
                 </div>
             </div>
         </div>

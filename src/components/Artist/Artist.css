@@ -1,0 +1,45 @@
+.artist-box {
+  margin-right: 50px;
+  text-align: center;
+  border: 2px solid #dddddd4d;
+  border-radius: 5px;
+  border-bottom: 5px solid #adadad;
+  box-shadow: 0 0 5px #ccc;
+  margin-top: 10px;
+}
+.artist-box img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.artist-name {
+  font-size: 21px;
+  margin: 0;
+  padding: 10px;
+  border-bottom: 1px solid #b36900c9;
+  text-transform: uppercase;
+}
+.artist-para {
+  font-size: 14px;
+  margin: 0;
+  padding: 10px;
+  border-bottom: 1px solid #b36900c9;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+span.taka-icon {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+.artist-btn {
+  background-color: goldenrod;
+  padding: 8px 19px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  margin: 15px 0;
+  font-weight: 700;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
